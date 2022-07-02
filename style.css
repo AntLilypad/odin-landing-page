@@ -49,8 +49,22 @@ button {
     color: #f9faf8;
 }
 
+.banner-right {
+    margin-left: 10px;
+    
+}
+
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.box {
+    height: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
 }
