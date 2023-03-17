@@ -3,18 +3,23 @@ body {
     flex-direction: column;
 }
 
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
 .header, .banner, .footer {
     display: flex;
-    background-color: #792a5e;
+    background-color: rgb(179, 93, 93);
     color: white;
     padding: 0 30px 20px 30px;
     align-items: center;
 }
 
 .banner {
-    padding: 10px 30px 50px 30px;
+    padding: 10px 30px 120px 30px;
     justify-content: center;
 }
+
 
 .header {
     font-size: 24px;
@@ -36,6 +41,8 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 5px 0px 30px 0;
+    font-size: 26px;
+    
 }
 
 .banner-left {
@@ -63,8 +70,12 @@ button {
 
 .hero {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8;
+}
+
+.hero2 {
+    font-size: 18px;
 }
 
 ul {
@@ -81,9 +92,7 @@ li {
     height: 200px;
     margin: 0 20px 0 20px;
     align-self: center;
-    display: flex;
-
-    
+    display: flex;    
 }
 
 .boxes {
@@ -98,8 +107,54 @@ li {
 }
 
 .cat-description {
+    font-size: 17px;
     text-align: center;
     display: flex;
     max-width: 150px;
     min-width: fit-content;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 135, 135);
+    height: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote1 {
+    font-size: 34px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-name {
+    align-self: flex-end;
+    padding: 10px 0 0 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.CTA-container {
+    padding: 100px 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA {
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(241, 141, 161);
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+.sign-up {
+    align-self: right;
 }
